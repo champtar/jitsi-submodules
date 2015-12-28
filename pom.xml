@@ -1,0 +1,69 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-submodule</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>jitsi-submodule</name>
+  <url>https://jitsi.org</url>
+  <description>Tests</description>
+
+  <scm>
+    <url>https://github.com/jitsi/jitsi-submodule</url>
+    <connection>scm:git:https://github.com/jitsi/jitsi-submodule.git</connection>
+    <developerConnection>scm:git:https://github.com/jitsi/jitsi-submodule.git</developerConnection>
+  </scm>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <organization>Jitsi</organization>
+      <email>dev@jitsi.org</email>
+      <url>https://jitsi.org</url>
+    </developer>
+  </developers>
+
+  <modules>
+    <module>bccontrib</module>
+    <module>fmj/m2/jitsi</module>
+    <module>ice4j</module>
+    <module>jain-sip/m2/jain-sip-ri-ossonly</module>
+    <module>jicoco</module>
+    <module>jicofo</module>
+    <module>jinglenodes/jnsapi_java</module>
+    <module>jitsi-android-osgi</module>
+    <module>jitsi-lgpl-dependencies</module>
+    <module>jitsi/m2</module>
+    <module>jitsi-universe</module>
+    <module>jitsi-universe-public</module>
+    <module>jitsi-videobridge</module>
+    <module>libjitsi</module>
+    <module>newrelic-java-api-stub</module>
+    <module>smack_3_2_2/smack/tags/smack_3_2_2/build/m2</module>
+    <module>zrtp4j/m2/zrtp4j-light</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>2.2</version>
+      </plugin>
+    </plugins>
+  </build>
+
+
+</project>
