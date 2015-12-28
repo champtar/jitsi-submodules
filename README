@@ -1,0 +1,12 @@
+The idea is to build all jitsi code from sources
+
+# Clone:
+git clone --recursive ...
+
+# Rebuild:
+mvn clean
+rm -rf ~/.m2
+mvn install -DskipTests -Dmaven.javadoc.skip=true -Dgpg.skip=true -Dassembly.skipAssembly=false
+
+This should rebuild without downloading from jitsi-maven-repository snapshots
+i'm skipping tests here because they need a working environnement + config
