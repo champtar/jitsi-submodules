@@ -1,0 +1,72 @@
+[submodule "jitsi-videobridge"]
+	path = jitsi-videobridge
+	url = https://github.com/jitsi/jitsi-videobridge.git
+	branch = master
+[submodule "jicofo"]
+	path = jicofo
+	url = https://github.com/jitsi/jicofo.git
+	branch = master
+[submodule "libjitsi"]
+	path = libjitsi
+	url = https://github.com/jitsi/libjitsi.git
+	branch = master
+[submodule "jicoco"]
+	path = jicoco
+	url = https://github.com/jitsi/jicoco.git
+	branch = master
+[submodule "jitsi-universe"]
+	path = jitsi-universe
+	url = https://github.com/jitsi/jitsi-universe.git
+	branch = master
+[submodule "jitsi"]
+	path = jitsi
+	url = https://github.com/jitsi/jitsi.git
+	branch = master
+[submodule "bccontrib"]
+	path = bccontrib
+	url = https://github.com/jitsi/bccontrib.git
+	branch = master
+[submodule "ice4j"]
+	path = ice4j
+	url = https://github.com/jitsi/ice4j.git
+	branch = master
+[submodule "jitsi-lgpl-dependencies"]
+	path = jitsi-lgpl-dependencies
+	url = https://github.com/jitsi/jitsi-lgpl-dependencies.git
+	branch = master
+[submodule "jitsi-android-osgi"]
+	path = jitsi-android-osgi
+	url = https://github.com/jitsi/jitsi-android-osgi.git
+	branch = master
+[submodule "newrelic-java-api-stub"]
+	path = newrelic-java-api-stub
+	url = https://github.com/jitsi/newrelic-java-api-stub.git
+	branch = master
+[submodule "zrtp4j"]
+	path = zrtp4j
+	url = https://github.com/jitsi/zrtp4j.git
+	branch = jitsi
+[submodule "jain-sip"]
+	path = jain-sip
+	url = https://github.com/jitsi/jain-sip.git
+	branch = jitsi
+[submodule "dnsjava"]
+	path = dnsjava
+	url = https://github.com/jitsi/dnsjava.git
+	branch = jitsi
+[submodule "smack_3_2_2"]
+	path = smack_3_2_2
+	url = https://github.com/jitsi/smack_3_2_2.git
+	branch = master
+[submodule "jinglenodes"]
+	path = jinglenodes
+	url = https://github.com/jitsi/jinglenodes.git
+	branch = jitsi
+[submodule "fmj"]
+	path = fmj
+	url = https://github.com/champtar/fmj-sourceforge-mirror.git
+	branch = master
+[submodule "callstats"]
+	path = callstats
+	url = https://github.com/callstats-io/callstats.java.git
+	branch = master
